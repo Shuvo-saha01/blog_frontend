@@ -34,6 +34,7 @@ To set up the project locally:
 
 Below is a preview of the app's UI. The design showcases a clean and intuitive interface for a better user experience:
 
-  ![![alt text](image.png)](https://github.com/user-attachments/assets/51e44eec-15f0-4248-a18f-14e926be54a9)
+  ![Alt text](image.png)
+
 
   This sample image demonstrates the responsive and interactive design elements.
