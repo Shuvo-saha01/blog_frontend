@@ -12,7 +12,8 @@ createRoot(document.getElementById('root')).render(
     <Router>
       <Routes>
         <Route path="/" element={<App />} />
-        <Route path="/login" element={<Login />} />
+        {/* route for login page */}
+        <Route path="/login" element={<Login />} /> 
       </Routes>
     </Router>
   </StrictMode>,

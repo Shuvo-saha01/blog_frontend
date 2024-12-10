@@ -7,11 +7,11 @@ import { toast } from "react-toastify";
 const Login = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const navigate = useNavigate();
+  const navigate = useNavigate(); 
 
   const submitClick = () => {
     if (!email || !password) {
-      toast.error("All fields are required!");
+      toast.error("All fields are required!"); //toast-notification message
     } else {
       toast.success("Login successful!");
       setTimeout(() => {
@@ -72,7 +72,7 @@ const Login = () => {
             </button>
           </form>
 
-          <div className="mt-4 ml-[1rem]" >
+          <div className="mt-4 ml-[1rem]">
             <p className="text-black">
               New to My Blog?{" "}
               <Link to="/" className="text-blue-700 hover:underline">
