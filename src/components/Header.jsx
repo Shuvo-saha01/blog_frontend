@@ -30,7 +30,7 @@ const Header = () => {
       document.documentElement.classList.remove('dark');
       localStorage.setItem('darkMode', 'light');
     }
-  }, [darkMode]);
+  }, [darkMode]) ;
 
   return (
   <>
