@@ -10,11 +10,21 @@ const Header = () => {
     return localStorage.getItem('darkMode') === 'dark';
   });
 
-
-
   const handleLoginClick = () => {
     navigate('/login');
+  }
+  const aboutSection = () => {
+    navigate('/about');
+  }
+  const home = () => {
+    navigate('/');
+  }
+  const Contact = () => {
+    navigate('/contact');
   };
+
+
+
 
 
 
