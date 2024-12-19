@@ -40,9 +40,9 @@ const Header = () => {
         <h1 className="text-2xl font-bold">My Blog</h1>
         <nav>
           <ul className="flex space-x-4">
-            <li className='py-2'><a href="#home" className="hover:underline">Home</a></li>
-            <li className='py-2'><a href="#about" className="hover:underline">About</a></li>
-            <li className='py-2'><a href="#contact" className="hover:underline">Contact</a></li>
+            <li className='py-2'><button onClick={home} className="hover:underline">Home</button></li>
+            <li className='py-2'><button onClick={aboutSection} className="hover:underline">About</button></li>
+            <li className='py-2'><button onClick={Contact} className="hover:underline">Contact</button></li>
             <button onClick={handleDarkMode} className='rounded-full border w-8 h-8 my-auto' ><img className='my-auto mx-auto bg-white rounded-full' src="./images/darkMode.png" alt="dark mode logo" /></button>
           <button onClick={handleLoginClick} className="login hover:border hover:border-white px-5 py-2 bg-blue-900 rounded-[3rem]">Log In</button>
           </ul>
