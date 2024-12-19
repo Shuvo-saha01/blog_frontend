@@ -9,7 +9,7 @@ import "slick-carousel/slick/slick-theme.css";
 
 const url = import.meta.env.VITE_API;
 
-export const dataRef = { current: null }; // Export a mutable object
+export const dataRef = { current: null }; 
 
 const App = () => {
   const [data, setData] = useState(null);
@@ -22,7 +22,7 @@ const App = () => {
         throw new Error(`Error: ${response.status} ${response.statusText}`);
       }
       const jsonData = await response.json();
-      dataRef.current = jsonData; // Update the exported object
+      dataRef.current = jsonData; 
       setData(jsonData);
     } catch (error) {
       setError(error.message);
@@ -36,8 +36,10 @@ const App = () => {
   if (error) return <p>Error: {error}</p>;
   if (!data) return <p>Loading...</p>;
 
+  
+
   return (
-    <div>
+    <div id='body ' className='bg-gray-100 dark:bg-gray-800'>
       <Header />
       <Carousal />
       <BlogList articles={data.articles} />
