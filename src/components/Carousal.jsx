@@ -31,12 +31,12 @@ function Carousal() {
 
   return (
     
-    <div>
-      <div className=" text-center mt-3 font-bold text-5xl md:text-5xl mb-5 tracking-wider font-serif"><h1><span className="text-red-500" >Head</span>Lines</h1></div>
+    <div className="w-full h-full flex flex-col justify-center items-center overflow-x-hidden"> 
+      <div className=" text-center dark:text-white mt-3 font-bold text-5xl md:text-5xl mb-5 tracking-wider font-serif"><h1><span className="text-red-500" >Head</span>Lines</h1></div>
       {loaded ? (
         
         <Swiper
-        className="w-full overflow-hidden flex justify-center items-center"
+        className="w-full overflow-hidden overflow-x-hidden flex justify-center items-center"
           modules={[
             Navigation,
             Pagination,

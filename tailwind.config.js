@@ -1,4 +1,3 @@
-/* eslint-env node */
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
@@ -9,9 +8,10 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        playfair: ['"Playfair Display"', 'serif'], // Add Playfair Display
+        playfair: ['"Playfair Display"', 'serif'],
       },
     },
   },
+  darkMode: 'class',
   plugins: [],
 };
