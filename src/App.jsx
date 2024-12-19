@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import Header from './components/Header';
-import Hero from './components/Hero';
 import BlogList from './components/BlogList';
 import Footer from './components/Footer';
 import Carousal from './components/Carousal';
