@@ -2,11 +2,11 @@ import React from "react";
 import PostCards from "./PostCard";
 
 function Posts({ postData ,selectedTopic, setSelectedTopic}) {
-//   const [selectedTopic, setSelectedTopic] = React.useState("all");
+
 
   const handleTopicChange = (e) => { 
     setSelectedTopic(e.target.value);
-    // console.log(e.target.value);
+
    };
 
   return (
