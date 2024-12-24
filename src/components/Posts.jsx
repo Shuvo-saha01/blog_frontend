@@ -5,7 +5,7 @@ function Posts({ postData ,selectedTopic, setSelectedTopic}) {
 
 
   const handleTopicChange = (e) => { 
-    setSelectedTopic(e.target.value);
+    setSelectedTopic(e.target.value); 
 
    };
 
